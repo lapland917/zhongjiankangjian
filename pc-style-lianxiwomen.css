@@ -13,6 +13,11 @@
     display: block;
 }
 
+h6{
+    margin: 0px;padding: 0px;
+}
+
+
   
 .pc-black{
     height: 100px;
@@ -58,8 +63,17 @@
     color:rgb(4, 152, 252); 
     text-align: center;
     border-bottom-left-radius: 8px;
-   
-   
+    position: relative;
+}
+
+.pc-address>h6{
+    position: absolute;
+    top: 168px;
+    right: 122px;
+    font-size: 14px;
+    color:rgb(4, 152, 252); 
+    font-weight: normal;
+    font-weight: bold;
 }
 
 .pc-address:hover span{
@@ -99,10 +113,28 @@
     color:rgb(157,201,57);
     /* background-color: aquamarine; */
     text-align: center;
+    position: relative;
    
 }
 
+.pc-iphone > h6{
+    position: absolute;
+    top: 172px;
+    right: 137px;
+    font-size: 14px;
+    color:rgb(157,201,57); 
+    font-weight: normal;
+    font-weight: bold;
+}
+
+
+
+
 .pc-iphone:hover span{
+    display: none
+ }
+
+ .pc-iphone:hover h6{
     display: none
  }
 
@@ -135,13 +167,27 @@
     color:rgb(1,54,104);
     /* background-color: bisque; */
     text-align: center;
-    
+    position: relative;
+}
+
+.pc-email > h6{
+    position: absolute;
+    top: 172px;
+    right: 137px;
+    font-size: 14px;
+    color:rgb(1,54,104); 
+    font-weight: normal;
+    font-weight: bold;
 }
 
 
 
 .pc-email:hover span{
-    display: none
+    display: none;
+ }
+
+ .pc-email:hover h6{
+    display: none;
  }
 
 
@@ -185,7 +231,17 @@
     color:rgb(153,207,49);
     /* background-color: blueviolet; */
     text-align: center;
-   
+    position: relative;
+}
+
+.pc-weixin > h6{
+    position: absolute;
+    top: 172px;
+    right: 114px;
+    font-size: 14px;
+    color:rgb(153,207,49); 
+    font-weight: normal;
+    font-weight: bold;
 }
 
 
@@ -193,10 +249,18 @@
     display: none
  }
 
+ .pc-weixin:hover h6{
+    display: none
+ }
+
 
 .pc-weixin:hover{
    background: rgb(4, 152, 252); 
 }
+
+
+
+
 
 .pc-weixin:hover .pc-weixin-1{
     display: block;

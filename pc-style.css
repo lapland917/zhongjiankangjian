@@ -68,7 +68,7 @@ body{
   }
 
   .header-pc-nav-right a:hover{
-    color:rgb(2, 128, 212);
+    color:rgb(4, 152, 252);
     font-weight: bold;
   }
 
@@ -328,7 +328,7 @@ body{
 
 h5{
     position: absolute;
-    top: 334px;right:170px;
+    top: 334px;right:110px;
     text-align: center;
     color: #4d4d4d;
     font-weight: normal;
