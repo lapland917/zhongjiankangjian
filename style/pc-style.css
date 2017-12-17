@@ -160,18 +160,18 @@ body{
 }
 
 .pc-main-02-a>li:nth-child(1){
-   background-image: url(./image/shouquanpai.png);
+   background-image: url(../image/shouquanpai.png);
    background-repeat: no-repeat;
    background-position: -1051px 0px;
 }
 .pc-main-02-a>li:nth-child(2){
-    background-image: url(./image/shouquanpai.png);
+    background-image: url(../image/shouquanpai.png);
     background-position: 0px 0px;
     background-repeat: no-repeat;
 }
 .pc-main-02-a>li:nth-child(3){
     background-repeat: no-repeat;
-    background-image: url(./image/shouquanpai.png);
+    background-image: url(../image/shouquanpai.png);
     background-position: -698px 0px;
 }
 
@@ -208,14 +208,14 @@ body{
 .pc-main-02-c>li:nth-child(1){
     
     background-repeat: no-repeat;
-    background-image: url(./image/shouquanpai.png);
+    background-image: url(../image/shouquanpai.png);
     background-position: 1px -311px;
 }
 
 
 .pc-main-02-c>li:nth-child(2){
     background-repeat: no-repeat;
-    background-image: url(./image/shouquanpai.png);
+    background-image: url(../image/shouquanpai.png);
     background-position:-350px 1px;
 }
 
