@@ -1,5 +1,6 @@
 body,ul,li，h1,h2,h5{
     margin: 0;padding: 0;
+    font-family: '微软雅黑';
 }
 
 body{
@@ -250,23 +251,26 @@ body{
 }
 
 .pc-main-03-b{
-    height: 300px;width: 1000px;;
+    height: 430px;width: 1220px;;
     /* background-color: red; */
     margin: 0 auto;
-    margin-top: 70px;
+    border-radius: 8px;
+    background-image: url(../image/2.jpg)
 }
 
 h5{
     position: absolute;
-    top: 334px;right:110px;
+    top: 303px;
+    right: 244px;
     text-align: center;
     color: #4d4d4d;
-    font-weight: normal;
+    /* font-weight: normal; */
 }
 
 .pc-main-03>h2{
     position: absolute;
-    top: 216px;right:150px;
+    top: 183px;
+    right: 297px;
     text-align: center;
     font-size: 70px;
 }

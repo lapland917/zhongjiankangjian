@@ -1,0 +1,68 @@
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/* 头部的CSS */
+.pc-black{
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    float: right;
+    text-align: center;
+}
+
+.pc-black>a{
+    line-height: 100px;
+    color: #242424;;
+    text-decoration: none;
+}
+
+.pc-black>a:hover{
+    font-weight: bold;
+    color:rgb(4, 152, 252); 
+}
+
+/* 项目介绍的CSS */
+
+.xiangmujieshao{
+    
+}
+
+.xiangmujieshao-con{
+    height: 1600px;width:1220px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(207, 207, 207);
+    margin-bottom: 180px;
+}
+
+.xiangmujieshao-con-01{
+    height: 80px;
+    background-color:#efefef;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    text-align: center;
+}
+
+.xiangmujieshao-con-01 span{
+    line-height: 80px;
+    color: rgb(90, 90, 90);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.xiangmujieshao-con-02{
+    width: 1220px;
+    height: 1600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image: url("../image/xiangmujieshao.png");
+}
+
+
+
+
+
